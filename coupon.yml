@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: coupon
+    name: yhq
     index: 0
 
   datasource:
@@ -47,7 +47,7 @@ spring:
             headerMode: raw
         output:
           # destination: testq2
-          group: coupon
+          group: yhq
           producer:
             # partitionKeyExpression: null
             # partitionKeyExtractorClass: null
